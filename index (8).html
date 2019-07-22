@@ -1,0 +1,1523 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Quantech Origin </title>
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="We Integrate Transformations," />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //for-mobile-apps -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<!-- css files -->
+	<link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond:500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> 
+
+	<!-- //css files -->
+	
+<style>
+
+.demo{ background: #f6fcfd; }
+.serviceBox{
+    padding: 50px 35px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-bottom-color: #428ef8;
+    text-align: center;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox:hover{ border: 1px solid #428ef8; }
+.serviceBox:before,
+.serviceBox:after{
+    content: "";
+    width: 70%;
+    height: 5px;
+    background: #428ef8;
+    opacity: 0;
+    position: absolute;
+    top: -3px;
+    left: 35%;
+    transform: translateX(-50%);
+    transition: all 0.5s ease 0s;
+}
+.serviceBox:hover:before,
+.serviceBox:hover:after{
+    opacity: 1;
+    left: 50%;
+}
+.serviceBox:after{
+    top: auto;
+    bottom: -3px;
+}
+.serviceBox .service-icon{
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+    background: #428ef8;
+    margin: 0 auto 20px;
+    font-size: 36px;
+    color: #fff;
+}
+.serviceBox .title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #252525;
+    margin: 0 0 10px 0;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox:hover .title{ opacity: 0; }
+.serviceBox .description{
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 25px;
+    margin: 0;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox:hover .description{
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+@media only screen and (max-width:990px){
+    .serviceBox{ margin-bottom: 30px; }
+}
+	
+.main-timeline{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 70px 0 0;
+    position: relative;
+}
+.main-timeline:before{
+    content: '';
+    background-color: #555;
+    height: 100%;
+    width: 1.3%;
+    transform: translateX(-50.8%);
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{
+    width: 49%;
+    min-height: 140px;
+    padding: 30px 80px 30px 0;
+    margin: -70px 30px 0 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.main-timeline .timeline:before{
+    content: '';
+    background-color: #04A5E8;
+    height: 140px;
+    width: 140px;
+    border-radius: 35px;
+    transform: translateY(-50%) rotate(45deg);
+    position: absolute;
+    right: -75px;
+    top: 50%;
+}
+.main-timeline .timeline-content{
+    color: #04A5E8;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 15px;
+    display: block;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-icon{
+    color: #04A5E8;
+    background-color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    z-index: 1;
+}
+.main-timeline .timeline:nth-child(even){
+    padding: 30px 0 30px 80px;
+    margin: -70px 0 0 30px;
+    float: right;
+}
+.main-timeline .timeline:nth-child(even):before{
+    right: auto;
+    left: -75px;
+}
+.main-timeline .timeline:nth-child(even) .timeline-icon{
+    right: auto;
+    left: 7px;
+}
+.main-timeline .timeline:nth-child(4n+2):before{ background-color: #80B801; }
+.main-timeline .timeline:nth-child(4n+2) .timeline-content,
+.main-timeline .timeline:nth-child(4n+2) .timeline-icon{ color: #80B801; }
+.main-timeline .timeline:nth-child(4n+3):before{ background-color: #F64F1B; }
+.main-timeline .timeline:nth-child(4n+3) .timeline-content,
+.main-timeline .timeline:nth-child(4n+3) .timeline-icon{ color: #F64F1B; }
+.main-timeline .timeline:nth-child(4n+4):before{ background-color: #162E4B; }
+.main-timeline .timeline:nth-child(4n+4) .timeline-content,
+.main-timeline .timeline:nth-child(4n+4) .timeline-icon{ color: #162E4B; }
+@media only screen and (max-width:767px){
+    .main-timeline{ padding: 0; }
+    .main-timeline:before{
+        width: 2%;
+        transform: translateX(0);
+        left: 0;
+    }
+    .main-timeline .timeline:nth-child(even),
+    .main-timeline .timeline{
+        width: 97%;
+        min-height: auto;
+        padding: 0 0 0 80px;
+        margin: 0 0 5px;
+        float: right;
+    }
+    .main-timeline .timeline:before{
+        right: auto;
+        left: -75px;
+    }
+    .main-timeline .timeline .timeline-icon{
+        right: auto;
+        left: 7px;
+    }
+    .main-timeline .timeline-content{ font-size: 16px; }
+}
+
+	.abt{
+	
+	background:#fff;
+	width: 90%;
+	overflow: auto;
+	text-align: justify;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:2%;
+	padding-left: 25px;
+	color:#000;
+	}
+	
+.abt:hoverr {
+    border: 3px solid red;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    transition: 3s all;
+    -o-transition: all 3s;
+    -ms-transition: all 3s;
+}
+	
+	
+	
+	.abt1{
+	color:#000;
+	background:royalblue;
+	width: 90%;
+	overflow: auto;
+	text-align: justify;
+	margin: 2em 5% 0 5%;
+	padding: 20px;	
+	}
+	
+	.img1 {
+	float: right;
+	border-radius: 4px 30px ;
+	background: transparent;
+	padding-left:20px;
+	}
+	
+	@media (max-width: 500px)
+	{
+	.abt { 
+	margin: 2em 2% 0 2%;
+	padding: 14px;
+	display:block;
+	width:96%;
+	}
+	.abt1 { 
+	margin: 2em 2% 0 2%;
+	display:block;
+	width:96%;
+	padding:12px;
+	}
+	
+	
+	.img1 {
+	margin: auto;
+	float: none;
+	display: block;
+	padding:6px;
+	}
+	
+	}
+	
+	
+	.dt {
+	color:#fff;
+	border-radius: 6px;
+	font-size:14px
+	font-family:Palatino;
+	width: 80%;
+	overflow: auto;
+	text-align: justify;
+	margin-left:10%;
+	margin-right: 10%;
+	padding: 22px;
+	box-shadow:0 0 5px #aaaaaa;
+	background: linear-gradient(to right,#581F85,#3B31C4,#581F85);
+	}
+	
+	P{
+	font-family:'EB Garamond', serif;
+	font-size:17px;
+	color:#000000;
+	text-align:justify;
+	font-weight:200;
+	
+	}
+	
+	
+	H1 {
+	Font-size:1.5em;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	color:orangered;
+	}
+	
+	.mvs-btn{
+	background-color:orangered;
+	color:white;
+	font-size:22px;
+	padding:10px 10px;
+	border-radius:10px;
+	}
+	
+
+	div.container12 {
+    height: 10em;
+    position: relative }
+div.container12 row {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+    
+    :root{
+    --white: #fff;
+    --cl_1: #D008AF;
+    --cl_2: #F92D4B;
+    --bg-gr_1: linear-gradient(to right,var(--cl_1),var(--cl_2));
+    --cl_3: #FEC901;
+    --cl_4: #FE0C34;
+    --bg-gr_2: linear-gradient(to right,var(--cl_3),var(--cl_4));
+    --cl_5: #559DF3;
+    --cl_6: #9114D0;
+    --bg-gr_3: linear-gradient(to right,var(--cl_5),var(--cl_6));
+    --cl_7: #2CD190;
+    --cl_8: #138FC8;
+    --bg-gr_4: linear-gradient(to right,var(--cl_7),var(--cl_8));
+    }
+    .serviceBox2{
+    font-family: 'Niramit', sans-serif;
+    text-align: center;
+    padding: 100px 0 0;
+    margin: 80px 10px 0;
+    border-left: 3px solid var(--cl_1);
+    position: relative;
+    z-index: 1;
+    }
+    .serviceBox2:before,
+    .serviceBox2:after{
+    content: '';
+    background-color: var(--cl_1);
+    height: 3px;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    }
+    .serviceBox2:after{
+    background: var(--bg-gr_1);
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    }
+    .serviceBox2 .service2-icon{
+    color: var(--white);
+    background: var(--bg-gr_1);
+    font-size: 70px;
+    line-height: 140px;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    transition: all 0.3s;
+    }
+    .serviceBox2:hover .service2-icon{ font-size: 60px; }
+    .serviceBox2 .service-icon2:before,
+    .serviceBox2 .service-icon2:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 96%;
+    width: 96%;
+    border: 10px solid var(--white);
+    border-radius: 50%;
+    z-index: -1;
+    }
+    .serviceBox2 .service2-icon:after{
+    border: none;
+    background: var(--bg-gr_1);
+    height: 82%;
+    width: 82%;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: all 0.3s;
+    }
+    .serviceBox2:hover .service2-icon:after{
+    box-shadow: 0 0 15px rgba(0,0,0,0.3), 0 0 10px var(--white) inset;
+    }
+    .serviceBox2 .service2-content{
+    padding: 0 20px 20px;
+    border-right: 3px solid var(--cl_2);
+    }
+    .serviceBox2 .title{
+    color: var(--cl_1);
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    }
+    .serviceBox2 .description{
+    color: #707070;
+    font-size: 15px;
+    line-height: 27px;
+    }
+    .serviceBox2.yellow:after,
+    .serviceBox2.yellow .service2-icon,
+    .serviceBox2.yellow .service2-icon:after{
+    background: linear-gradient(to right,var(--cl_3),var(--cl_4));
+    }
+    .serviceBox2.yellow:before{ background-color: var(--cl_3); }
+    .serviceBox2.yellow{ border-left-color: var(--cl_3); }
+    .serviceBox2.yellow .service-content{ border-right-color: var(--cl_4); }
+    .serviceBox2.yellow .title{ color: var(--cl_4); }
+    .serviceBox2.blue:after,
+    .serviceBox2.blue .service2-icon,
+    .serviceBox2.blue .service2-icon:after{
+    background: var(--bg-gr_3);
+    }
+    .serviceBox2.blue:before{ background-color: var(--cl_5); }
+    .serviceBox2.blue{ border-left-color: var(--cl_5); }
+    .serviceBox2.blue .service2-content{ border-right-color: var(--cl_6); }
+    .serviceBox2.blue .title{ color: var(--cl_6); }
+    .serviceBox22.green:after,
+    .serviceBox2.green .service2-icon,
+    .serviceBox2.green .service2-icon:after{
+    background: var(--bg-gr_4);
+    }
+    .serviceBox2.green:before{ background-color: var(--cl_7); }
+    .serviceBox2.2green{ border-left-color: var(--cl_7); }
+    .serviceBox2.green .service2-content{ border-right-color: var(--cl_8); }
+    .serviceBox2.green .title{ color: var(--cl_8); }
+    @media only screen and (max-width:990px){
+    .serviceBox2{ margin: 100px 0 0; }
+    }
+	</style>
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="banner-main">
+		<div class="banner">
+			<div class="agile_dot_info one">
+			<!--header-->
+			<div class="header">
+				<div class="container">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+							<h1><a href="index.html">
+							<img src="images/logo.png" class="img-responsive" alt="" width="200px"/>
+							</a></h1>
+						</div>
+						<!--navbar-header-->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html" class="active">Home</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#services">Services</a></li>
+								<li><a href="#team">Team</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="icons.html">Web Icons</a></li>
+										<li><a href="codes.html">Short Codes</a></li>
+									</ul>
+								</li> -->
+								
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="cd-main-header">
+					<ul class="cd-header-buttons">
+						<li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
+					</ul>
+					<!-- cd-header-buttons -->
+				</div>
+				<div id="cd-search" class="cd-search">
+					<form action="#" method="post">
+						<input name="Search" type="search" placeholder="Click enter after typing...">
+					</form>
+				</div>
+			</div>
+			<!--//header-->
+			<div class="w3_banner_info">
+				<div class="container">
+					<div class="flexslider-info">
+						<section class="slider">
+							<div class="flexslider">
+								<ul class="slides">
+									<li>
+									<div class="w3_banner_info_grid">
+										<h3><q>It is what we know already that often prevents us from learning. </q>- Claude Bernard
+										</h3><br><ul>
+											<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal1">Learn More</a></li>
+											<li><a href="contact.html" class="w3l_contact">Contact Us</a></li>
+										</ul>
+									</div>
+									</li>
+									<li>
+										<div class="w3_banner_info_grid">
+											<h3><q>A vision without a strategy is an illusion.</q> – Lee Bolman </h3>
+									<br>	<ul>
+											<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal1">Learn More</a></li>
+											<li><a href="contact.html" class="w3l_contact">Contact Us</a></li>
+										</ul>
+										</div>
+									</li>
+									<li>
+										<div class="w3_banner_info_grid">
+											<h3>We have trained over 8,00,000 students , across India.</h3><br>
+										<ul>
+											<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal1">Learn More</a></li>
+											<li><a href="contact.html" class="w3l_contact">Contact Us</a></li>
+										</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</section>
+					</div>
+				</div>
+		</div>
+		</div>
+	</div>
+	</div>
+	<!-- //banner -->
+								
+	<!-- team -->
+	<!-- About us 
+	<div class="abt">
+<h3 class="w3l-titles">About</h3>
+			<p style="margin:-2.5em 0 0 0;color:#000">	<b>Quantech Origin </b>founded by <b>Mr. Ananth P Mallya</b> , in 2007 ,  is a unique and novel concept which creates an innovative amalgamation of corporate and young employable engineers , and thereby aiding to India’s progress in globalization. <b>QuanTech</b> is adept in training solutions that not just up-skill a student but also widens their knowledge horizon. Our expertise includes strengthening behavioral skills and enriching analytical and logical thinking. Over the years, we have emanated as one of the pre-eminent assessment and training organizations of India.</p><br>
+			<p style="color:#000">	We are a zealous team of highly qualified professionals in the field of IT sector and recruitments, with proficient experience in training <u>since 2007</u>. At Quantech we are a highly focused team to provide an exemplary education , training and resourcing services with a distinct emphasis on enhancing the significance of ‘flexible resourcing’.</p>
+		<br>	<p style="color:#000">We have trained over <u>8,00,000 students </u>, across India , by helping them create their job possibilities in the IT- domain through skill upgradation. Our services range from assessment , consulting to training young corporates and students.</p>
+
+
+
+</div>
+	
+	-->
+
+
+
+		<div class="abt" style="">
+			<br>
+<h3 class="w3l-titles">About Us</h3>
+		<p style="color:#000">	<b>Quantech Origin </b>founded by <b>Mr. Ananth P Mallya</b> , in 2007 ,  is a unique and novel concept which creates an innovative amalgamation of corporate and young employable engineers , and thereby aiding to India’s progress in globalization. <b>QuanTech</b> is adept in training solutions that not just up-skill a student but also widens their knowledge horizon. Our expertise includes strengthening behavioral skills and enriching analytical and logical thinking. Over the years, we have emanated as one of the pre-eminent assessment and training organizations of India.</p><br>
+			<p style="color:#000">	We are a zealous team of highly qualified professionals in the field of IT sector and recruitments, with proficient experience in training <u>since 2007</u>. At Quantech we are a highly focused team to provide an exemplary education , training and resourcing services with a distinct emphasis on enhancing the significance of ‘flexible resourcing’.</p>
+		
+
+</div> <br><br>
+<!--
+					<ul class="about-list">
+						<li>
+							<span class="fa fa-sitemap" aria-hidden="true"></span>
+							<div class="in-block">
+						<h5>Placement Training </h5><p>QuanTech Origin abides by a lot of synergies to spread its network with institutes as well as the corporate industry. We are associated with a lot of competitive firms that are challenging the current market of excellence day by day. We will be assisting the college in providing two on campus companies and six pool campus companies for the students to get a fresh start in the corporate world through the placement.</p>
+							</div>
+						</li>
+						<li>
+						<span class="fa fa-check-square-o" aria-hidden="true"></span>
+							<div class="in-block">
+							<h5>	Career Counseling </h5>
+<p>Alongside Placement Training the trainers at QuanTech also assist students through counseling them in their career choices.</p>
+							</div>
+						</li>
+						<li>
+					
+						
+						<li>
+						<span class="fa fa-thumbs-o-up" aria-hidden="true"></span>
+						<div class="in-block">
+						<h5>Recruitment Support </h5>
+						<p>Our Training to students also includes mock interviews , practice handouts and tests. This ensures that a student is efficient enough to get through the recruitment drives.</p>
+						</div>
+						</li>
+						<li>
+						<span class="fa fa-laptop" aria-hidden="true"></span>
+						<div class="in-block">
+						<h5>	e-Learning </h5>
+						<p>QuanTech envisions in creating a online platform helping students with e-Learning facility , so that they can access to modules right from their homes.</p>
+						</div>
+						</li>
+						<li>
+						<span class="fa fa-building-o" aria-hidden="true"></span>
+						<div class="in-block">
+						<h5>Incubation Centres </h5>
+						<p> We have had the privilege in associating and assisting  various  institutes and startups , through management training.</p>
+						</div>
+						</li>
+						<li>
+						<span class="fa fa-graduation-cap" aria-hidden="true"></span>
+						<div class="in-block">
+						<h5>Internships</h5>
+						<p> One of the biggest perks of internships is that you can pick up professional skills through observation and practice. QuanTech has openings for graduates who are willing to intern with us and upgrade their skills in diverse topics.</p>
+						
+						</div>
+						</li>
+					</ul>
+-->
+
+				
+	<!-- //About us -->
+
+<div class="demo">
+        <div class="container">
+            <div class="row text-center">
+            	<br>
+                <h3 class="w3l-titles">Our Services</h3>
+            </div>
+    <div class="row text-center">
+        <div class="col-md-4 col-sm-6">
+            <div class="serviceBox">
+                <div class="service-icon">
+                    <i class="fa fa-globe"></i>
+                </div>
+                <div class="service-content">
+                    <h3 class="title">Recruitment Service</h3>
+                    <p class="description">
+QuanTech Origin is the pioneer of organized recruitment for the corporates in India. We provide end to end human resource management to various corporate organizations by understanding their needs with our wide range of talent acquisition skill acquired over a decade long service in this industry.
+We address their critical talent needs by providing comprehensive workforce management from Recruitment Process Outsourcing. In a nutshell we act as a bridge between the campus and corporates creating a win-win situation to all.
+</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="serviceBox green">
+                <div class="service-icon">
+                    <i class="fa fa-rocket"></i>
+                </div>
+                <div class="service-content">
+                    <h3 class="title">Assessment Service</h3>
+                    <p class="description">
+QuanTech Origin provides assessment service in psychometric test, aptitude test and coding test which will save time spent by the recruiters in the initial level evaluation of the candidate.  It makes the recruiter job hassle free by taking care of coordination with candidate, follow ups, scheduling, invigilation and other operation stuff.
+We also provide assessment services to colleges to get their students ready for the placements and other competitive exams by practicing 100+ hours of assessments on all modules.<br>
+</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="serviceBox">
+                <div class="service-icon">
+                    <i class="fa fa-globe"></i>
+                </div>
+                <div class="service-content">
+                    <h3 class="title">Campus Recruitment Training</h3>
+                    <p class="description">
+QuanTech Origin has a comprehensive program designed to train students for all the stages of the campus recruitment process done at various engineering and other degree related colleges. The program has different modules for aptitude test, group discussion, and personal interviews. The program is designed to train students in the recruitment process which helps them land a good job in a good company. <br><br><br><br>
+
+</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div></div>
+
+
+<br><br>
+<div class="container">
+            <div class="row text-center">
+            	<br>
+                <h3 class="w3l-titles">Our Other Services</h3>
+            
+            
+            <div class="container">
+            <div class="row">
+            <div class="col-md-3 col-sm-6">
+            <div class="serviceBox2">
+            <div class="service2-icon">
+            <i class="fa fa-check"></i>
+            </div>
+            <div class="service2-content">
+            <h3 class="title">Career Counseling </h3>
+            <p class="description">
+           
+           Choosing a career out of any stream of education is a decision where a person needs to be aware of his/her future requirements. There are lots and lots of options to choose after completing Engineering, but making the right decision is something very essential. 
+           <br><br>
+            </p>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+            <div class="serviceBox2 blue">
+            <div class="service2-icon">
+            <i class="fa fa-check"></i>
+            </div>
+            <div class="service2-content">
+            <h3 class="title">E-Learning</h3>
+            <p class="description">
+            
+           QuanTech envisions in creating a online platform helping students with e-Learning facility , so that they can access to modules right from their homes. Students can take whichever course at peace and at their convenience. <br><br><br>
+            </p>
+            </div>
+            </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+            <div class="serviceBox2">
+            <div class="service2-icon">
+            <i class="fa fa-check"></i>
+            </div>
+            <div class="service2-content">
+            <h3 class="title">Incubation Center</h3>
+            <p class="description">
+            
+            
+            Entrepreneurship in India is on the verge of explosive growth. This also throws new opportunities for the eco-system to take shape. Angel investors, venture capital, media, startup clubs, service providers, mentors and training companies are going to grow.
+            </p>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+            <div class="serviceBox2 blue">
+            <div class="service2-icon">
+            <i class="fa fa-trophy"></i>
+            </div>
+            <div class="service2-content">
+            <h3 class="title">Internship</h3>
+            <p class="description">
+            
+            As far as employers are concerned, internships have gone from a “nice to have” to a “must have” on a recent college graduates resume. A growing number of colleges and universities require internships before graduation and with good reason.<br><br>
+            
+            </p>
+            </div>
+            </div>
+            </div>
+            
+            
+            </div>
+            </div>
+            
+            
+            </div>
+            
+            
+            
+            
+            
+            </div><br><br>
+
+
+    <!-- testimonial -->
+			<div class="testimonial" id="testimonials">
+			<div class="container">
+			<div class="heading">
+			<h3 class="w3l-titles tes">Testimonials</h3>
+			</div>
+			<div class="agileits-w3layouts-info">
+			<div class="testimonial-grid">
+			<div class="slider">
+			<div class="callbacks_container">
+			<ul class="rslides" id="slider3">
+			<li>
+			<div data-aos="flip-down" class="col-md-6 testimonial-top">
+			<i class="fa fa-quote-right" aria-hidden="true"></i>
+			<p>Got my first break through into corporate world through QuanTech Origin. Extremely happy with the commitment the organisation has towards student fraternity. </p>
+			<h5>- Swathi Karthikeyan</h5>
+			</div>
+			<div data-aos="flip-down" class="col-md-6 testimonial-top">
+			<i class="fa fa-quote-right" aria-hidden="true"></i>
+			<p>For me QuanTech Origin experience was awesome as I was able to understand the requirements of the corporates and prepare myself accordingly through Campus Recruitment Training</p>
+			<h5>  Nandish Revanna</h5>
+			</div>
+			<div class="clearfix"></div>
+			</li>
+			<li>
+			<div data-aos="flip-up" class="col-md-6 testimonial-top">
+			<i class="fa fa-quote-right" aria-hidden="true"></i>
+			<p>Rarely do claims and the product meet. QuanTech Origin has proved to be that rare company that under promised and over delivered.</p>
+			<h5> – Monappa, Placement Officer, KVG Sulia</h5>
+			</div>
+			<div data-aos="flip-up" class="col-md-6 testimonial-top">
+			<i class="fa fa-quote-right" aria-hidden="true"></i>
+			<p>Our association goes back to a decade long and the reason for such long term relation is their ability to gain contextual insights both at business and cultural level and provide the best talent fit.</p>
+			<h5> – Sandeep Kumar,HR, Dream Gains</h5>
+			</div>
+			
+			<div class="clearfix"></div>
+			</li>
+			</ul>
+			</div>
+			
+			
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			<!-- //testimonial -->
+			
+	
+	<!-- team -->
+	<div class="team">
+	<div class="container">
+	<h3 class="w3l-titles">Our Team</h3>
+	<div class="teamgrids">
+	<div class="col-md-3 teamgrid1">
+	<img src="images/Ananth.png" class="img-responsive" alt="" />
+	<div class="teaminfo">
+	<h3>Ananth Mallya</h3>
+	<p><i class="fa fa-dot-circle-o" aria-hidden="true"></i>FOUNDER</p>
+<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:Ananth@quantechorigin.in"> Ananth@quantechorigin.in</a></p>
+
+	<div class="team-social">
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	</div>
+	
+
+	</div>
+	</div>
+	<div class="col-md-3 teamgrid1">
+	<img src="images/Shanmukh.png" class="img-responsive" alt="" />
+	<div class="teaminfo">
+	<h3>Shanmukh</h3>
+	<p><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Chief Financial Officer</p>
+<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:Shanmukh@quantechorigin.in"> Shanmukh@quantechorigin.in</a></p>
+	<div class="team-social">
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	
+	</div> <!--
+	<p><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Chief Financial Officer</p>
+	<p><i class="fa fa-phone" aria-hidden="true"></i> +02 133 4568</p>
+	<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com"> mail@example1.com</a></p> -->
+	</div>
+	</div>
+	<div class="col-md-3 teamgrid1">
+	<img src="images/Soumya.png" class="img-responsive" alt="" />
+	<div class="teaminfo">
+	<h3>Sowmya</h3>
+	<p><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Operation Head</p>
+<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:Sowmya@quantechorigin.in"> Sawmya@quantechorigin.in</a></p>
+	<div class="team-social">
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	
+	</div><!--
+	
+	<p><i class="fa fa-phone" aria-hidden="true"></i> +02 133 4569</p>
+	<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com"> mail@example2.com</a></p> -->
+	</div>
+	</div>
+	<div class="col-md-3 teamgrid1">
+	<img src="images/Niriksha.png" class="img-responsive" alt="" />
+	<div class="teaminfo">
+	<h3>Nireeksha</h3>
+	<p><i class="fa fa-dot-circle-o" aria-hidden="true"></i>HR Manager</p>
+<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:Nireeksha@quantechorigin.in"> Nireeksha@quantechorigin.in</a></p>
+	<div class="team-social">
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	</div>
+	<!--
+	<p><i class="fa fa-phone" aria-hidden="true"></i> +02 133 4570</p>
+	<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com"> mail@example3.com</a></p> -->
+	</div>
+	</div>
+	
+
+	<div class="clearfix"></div>
+	</div>
+	</div>
+	</div>
+	<!-- //team -->
+	
+	<!-- stats -->
+	<div class="stats">
+	<div class="wthree_stat">
+	<div class="container">
+	
+	<div class="wthree_stat_right">
+	<ul>
+	<li>
+	<div class="wthree_stat_right1">
+	<i class="fa fa-users" aria-hidden="true"></i>
+	<h4>Satisfied Customers</h4>
+	<p class="counter">800000</p>
+	</div>
+	</li>
+	<li>
+	<div class="wthree_stat_right1">
+	<i class="fa fa-gift" aria-hidden="true"></i>
+	<h4>Offers Roled</h4>
+	<p class="counter">300000</p>
+	</div>
+	</li>
+	<li>
+	<div class="wthree_stat_right1">
+	<i class="fa fa-building" aria-hidden="true"></i>
+	<h4>Campus Client</h4>
+	<p class="counter">180</p>
+	</div>
+	</li>
+	<li>
+	
+	</ul>
+	</div>
+	<div class="clearfix"> </div>
+	
+	</div>
+	</div>
+	</div>
+	    
+
+
+	<div class="stats">
+	<div class="wthree_stat">
+	<div class="container" style="margin-top: -6em">
+	
+	<div class="wthree_stat_right">
+	<ul>
+	<li>
+	<div class="wthree_stat_right1">
+	<i class="fa fa-users" aria-hidden="true"></i>
+	<h4>Satisfied Customers</h4>
+	<p class="counter">800000</p>
+	</div>
+	</li>
+	<li>
+	<div class="wthree_stat_right1">
+	<i class="fa fa-gift" aria-hidden="true"></i>
+	<h4>Offers Roled</h4>
+	<p class="counter">300000</p>
+	</div>
+	</li>
+	<li>
+	<div class="wthree_stat_right1">
+	<i class="fa fa-building" aria-hidden="true"></i>
+	<h4>Campus Client</h4>
+	<p class="counter">180</p>
+	</div>
+	</li>
+	<li>
+	
+	</ul>
+	</div>
+	<div class="clearfix"> </div>
+	
+</li></ul></div></div></div></div>
+	
+
+	
+	<!-- //stats -->
+	
+	
+	<!-- about -->
+	<div class="about">
+	<div class="container" style="text-align:justify" >
+	<h3 class="w3l-titles">Campus Training Process Flow</h3><p>We believe in a holistic approach of training that involve a plan of action that is executed efficiently by our team of trainers. </p>
+	<br>
+	<div class="col-md-6 about-w3right">
+	<img src="images/g6.jpg" class="img-responsive" alt="" /><br><h4>The Process Flow includes :- </h4>
+	</div>
+	<div class="col-md-6 about-w3left">
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="headingOne">
+	<h5 class="panel-title asd">
+	<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false"
+	aria-controls="collapseOne">
+	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Pre-Assessment
+	</a>
+	</h5>
+	</div>
+	<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false"
+	style="height: 0px;">
+	<div class="panel-body panel_text">
+	<p>	Pre Assessment process is an unbiased way to gather the standing of students, for further process of imparting a effective and qualitative training. Pre Assessment gives clarity about the knowledge of students and helps us plan agenda accordingly. </p><br>
+	<p>The Pre Assessment comprises a set of bridge course questions from: Quantitative Aptitude , Logical Reasoning and Verbal Activity.</p><br>
+	<p>	A perspective report, based on the performance of a student is generated accordingly and scrutinized.</p><br>
+	
+	
+	<p><b>	<q>It is what we know already that often prevents us from learning.</q> - <u>Claude Bernard</u></p><br></b>
+	
+	<p>Pre Assessment process thus , eliminates the possibility of complacence among students by giving us a report of the level of training the prospective students would require.</p>
+	
+	
+	
+	</div>
+	</div>
+	</div>
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="headingTwo">
+	<h5 class="panel-title asd">
+	<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+	aria-controls="collapseTwo">
+	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>	Strategy
+	</a>
+	</h5>
+	</div>
+	<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false"
+	style="height: 0px;">
+	<div class="panel-body panel_text">
+	<p>	<b><q>A vision without a strategy is an illusion.</q>– <u>Lee Bolman</u></b>
+	<br><br>
+	At Quantech , we plan the best strategy based on the Pre Assessment report generated . The strategy involves gauging the potential of students and preparing the training topics accordingly. The trainers are thus, instructed based on whether the students need to be trained at beginner level or at an intermediate level or so.</p>
+	
+	</div>
+	</div>
+	</div>
+	
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="headingFour">
+	<h5 class="panel-title asd">
+	<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true"
+	aria-controls="collapseFour">
+	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>	Training and Transform
+	
+	
+	</a>
+	</h5>
+	</div>
+	<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour" aria-expanded="true">
+	<div class="panel-body panel_text">
+	<p>		Training is a paramount and tremendous process of the  working system. We have incorporated the latest of the demand , and check its effectiveness and horizon simultaneously maintaining a student- friendly session and not burden them.</p><br>
+	<p>	Our training sessions include an intensive training once a week, stretched for 6hrs - for a duration of 10 weeks.  Students can garner utmost through his/her complete involvement and deepen their technical proficiency. This methodology adopted also helps us understand the learning curve of the students and adapt accordingly. Our training ensures every student with the absolute sense of his/her learning and self-reliance.</p>
+	
+	</div>
+	</div>
+	</div>
+	
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="headingThree">
+	<h5 class="panel-title asd">
+	<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+	aria-controls="collapseThree">
+	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>	Post Assessment
+	</a>
+	</h5>
+	</div>
+	<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false"
+	style="height: 0px;">
+	<div class="panel-body panel_text">
+	
+	<p>	Post Assessment is an essential step in the entire process , since it unveils the understanding of the students. It gives a crystal clear report of the margin where students can enhance their skill sets.<br><br>
+	With the completion of the post assessment process , a closure report is handed over to the college . The report contains the complete information of the training process and an analysis about the Pre and Post Assessment of the student explaining their readiness to placements</p>
+	
+	</div>
+	</div>
+	</div>
+	
+	<div class="panel panel-default">
+	<div class="panel-heading" role="tab" id="headingfive">
+	<h5 class="panel-title asd">
+	<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+	aria-controls="collapseThree">
+	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Placements
+	</a>
+	</h5>
+	</div>
+	<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false"
+	style="height: 0px;">
+	<div class="panel-body panel_text">
+	
+	<p>Placement is the significant stage in enhancing an individual’s career. And training paves a very essential part in imposing such an experience. It is very noticeable that placement is the milestone that drives one to the completion of the training program. QuanTech Origin abides by a lot of synergies to spread its network with institutes as well as the corporate industry. We are associated with a lot of competitive firms that are challenging the current market of excellence day by day.</p>
+	
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="clearfix"> </div>
+	</div>
+	</div>
+	<!-- //about -->
+
+	
+		<!-- services -->
+	<div class="services">
+		<div class="container">
+			<div class="tittle_head_w3ls">
+				<h3 class="w3l-titles">Our Modules</h3>
+				<p>Our training sessions are divided into modules. It also includes mock interviews and tests that help student face professional interviews in par with corporate proficiency.</p><br>
+			</div>
+			<div class="inner_sec_grids_info_w3ls">
+				<div class="col-md-3 services-left">
+
+					<div class="services-left-top" style="background-color: green">
+
+						<h5>Quantitative Aptitude</h5>
+
+					</div>
+					<div class="services-left-top services-left-top1" style="background-color:blue">
+
+						<h5>Logical Reasoning</h5>
+
+					</div>
+				</div>
+				<div class="col-md-6 services-middle">
+					<div class="services-middle-img">
+						<img src="images/g1.jpg" alt="" />
+					</div>
+					<div class="services-middle-grids">
+						<div class="col-md-6 services-middle-left">
+							<div class="services-left-top" style="background-color: orange">
+
+								<h5>Verbal Ability</h5>
+
+							</div>
+						</div>
+						<div class="col-md-6 services-middle-left">
+							<div class="services-left-top" style="background-color: darkblue">
+
+								<h5>Soft Skills</h5>
+
+							</div>
+						</div>
+
+
+<div class="clearfix"> </div>
+					</div>
+				</div>
+<div class="col-md-3 services-left">
+					<div class="services-left-top" style="background-color: red">
+
+						<h5>Entrepreneurship</h5>
+
+					</div>
+					<div class="services-left-top services-left-top1" style="background-color: purple">
+
+						<h5>Technical Training</h5>
+
+					</div>
+				</div>
+
+
+
+
+						<div class="clearfix"> </div>
+					</div>
+				</div><!--
+				<div class="col-md-3 services-left">
+					<div class="services-left-top">
+
+						<h5>Illustrator CC 2017</h5>
+
+					</div>
+					<div class="services-left-top services-left-top1">
+
+						<h5>Indesign CC 2017</h5>
+
+					</div>
+				</div>
+				<div class="clearfix"> </div> -->
+			</div>
+		</div>
+	</div>
+	
+	<!--
+	
+	<div class="abt1">
+	
+	<h3><u>1. Quantitative Aptitude</u></h3><br>
+	
+	<p style="color:#fff">A study shows candidates with high quantitative ability have a much higher success rate in IT software training, as compared to others. Interestingly, the hypothesis may be extended to the importance of quantitative ability in engineering domain trainability as well, be it electronics, mechanical or civil. For instance, quantitative ability is a strong ingredient for technical trainability, i.e., the ability of a person to learn computer programming and software.<br><br>
+	
+<h3>	Quantitative Aptitude Module is divided into:-</h3><br>
+	
+	•	Number System<br>
+	•	Averages<br>
+	•	Percentage<br>
+	•	Ratio and Proportion<br>
+	•	Time and Work<br>
+	•	Distance, Speed and Work<br>
+	•	Profit and Loss<br>
+	•	Progression<br>
+	•	Permutation and Combination<br>
+	•	Probability </p>
+	
+	</div>
+	
+	<div class="abt1">
+	
+	<h3><u>2. Logical Reasoning</u></h3><br>
+	
+	<p style="color:#fff">Logical thinking is the process in which one uses reasoning consistently to come to a conclusion. Problems or situations that involve logical thinking call for structure, for relationships between facts, and for chains of reasoning that <b>“make sense.”</b><br>
+	Logical thinking skills give learners the ability to understand what they have read or been shown, and also to build upon that knowledge without incremental guidance. This process involves taking the important ideas, facts, and conclusions involved in a problem and arranging them in a chain-like progression that takes on meaning in and of itself. To think logically is to think in steps. Logical thinking teaches students that knowledge is fluid and builds upon itself.<br><br>
+	
+<h4>	Logical Reasoning Module is divided into :-  </h4><br>
+	
+	•	Data Arrangements<br>
+	•	Distribution<br>
+	•	Distribution, Ordering & Sequencing<br>
+	•	Direction Sense Test<br>
+	•	Blood Relations<br>
+	•	Data Interpretations<br>
+	•	Coding & Decoding<br>
+	•	Data Sufficiency<br>
+	•	Clocks and Calenders<br>
+	•	Syllogism
+	
+	</p>
+	</div>
+	
+	<div class="abt1">
+	
+	<h3><u>	3. Verbal Ability</u></h3><br>
+
+	<p style="color:#fff">Companies give considerable value to graduates acquiring a diverse set of skills in different work environment. Besides analytical and problem solving skills ; subjects of specific knowledge, research and improved decision making ability, management skills, understanding of other culture, confidence and competence to work in international environment are considered the most essential qualities for engineers. Underlying these skills is an effective verbal ability.
+	<br><br>
+	<h4>Verbal Ability Module is divided into :- </h4>
+	<br>
+	•	Synonyms and Antonyms<br>
+	•	Homophones and Minimal Pairs<br>
+	•	Sentence Correction<br>
+	•	Sentence Completion<br>
+	•	Para Jumbles<br>
+	•	Reading Comprehension
+	
+	</p>
+	
+	</div>
+	
+	<div class="abt1">
+	
+	<h3><u>	4. Soft Skills</u></h3><br>
+	
+	<p style="color:#fff">
+	
+
+	
+<h3>	The Competency Builder Module is designed to develop and sharpen :-<br></h3>
+	•	 Personal Skills<br>
+	•	Interpersonal Skills<br>
+	•	Transition from Campus to Corporate<br>
+	•	Communicate with confidence<br>
+	•	Face interviews with confidence<br>
+	•	Hold conversations.<br>
+	•	roject your ideas<br>
+	•	Use the learning from the program<br>
+	•	Implement it in your <br><br>
+	
+	<h3>Soft Skill Module includes :-    </h3><br>
+	   <center><button class="mvs-btn">  Group Discussion</button><br><br>
+<button class="mvs-btn">	Personal Interview</button><br><br>
+	<button class="mvs-btn">Resume Development</button>
+	</center>
+	</p>
+	</div>
+	
+	 //services -->
+	
+
+	
+			<!-- awards -->
+		<div>
+				<div class="container">
+				<h3 class="w3l-titles">Accreditations & Awards</h3>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-timeline">
+                <div class="timeline">
+                    <a href="" class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <p class="description">Contribution to STEM Society by DST, Times Now &
+AICRA- New Delhi</p>
+                    </a>
+                </div>
+                <div class="timeline">
+                    <a href="" class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <p class="description">CAT Award by HARMAN India</p>
+                    </a>
+                </div>
+                <div class="main-timeline">
+                <div class="timeline">
+                    <a href="" class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <p class="description">"Make in India" Award by DST
+National Talent Search Examination Certificate</p>
+                    </a>
+                </div>
+                <div class="timeline">
+                    <a href="" class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <p class="description">CAT Award by HARMAN India</p>
+                    </a>
+                </div>
+                <div class="main-timeline">
+                <div class="timeline">
+                    <a href="" class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <p class="description">"Make India Proud" through CSR activities in AFRICA by UNO</p>
+                    </a>
+                </div>
+                <div class="timeline">
+                    <a href="" class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <p class="description">Annual ARAB Award by IETO & AACC</p>
+                    </a>
+                </div>
+                <div class="main-timeline">
+                <div class="timeline">
+                    <a href="" class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <p class="description">Math Olympiad Certificate</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+			</div></div>
+		</div></div></p></div></div></div></div></div></div></div></ul></div></li></ul></div></div></div></div></center>
+
+			<!-- //awards -->
+			
+			<br>
+<!-- footer -->
+<div class="footer">
+		<div class="container">
+			<div class="col-md-5 footer-grids">
+				<h3></h3>
+				<p>Get FREE Updates</p>
+				<form action="#" method="post">
+					<input type="email" name="email" placeholder="Enter your email" required="">
+					<input type="submit" value="">
+				</form> 
+			</div>
+			<div class="col-md-4 footer-grids">
+				<h3>Mission</h3>
+				<p>We Integrate Transformations</p>
+			</div> 
+			<div class="col-md-3 footer-grids"> 
+				<h3>Contact Me</h3>
+				<p># 101, 13th Cross, 8th Main Malleshwaram, Bangalore - 560003<br>
+				<span>Office: 8050607000</span>
+				<span>Support to: <a href="mailto:Support@quantechorigin.in">support@quantechorigin.in</a></span>
+				</p>
+			</div>
+			<div class="clearfix"> </div> 
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="copyright">
+		<div class="container">
+			<p>© 2019 Improve. All Rights Reserved <br> Design by <a href="https://mvweb.in">mvweb.in</a></p>
+			<ul class="social-icons3">
+				<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
+				<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
+				<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li>
+				<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- //footer -->
+<!-- bootstrap-pop-up -->
+					<div class="modal video-modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModal">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+										Welcome
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>	
+								</div>
+								<section>
+									<div class="modal-body">
+										<img src="images/fav.jpg" alt=" " class="img-responsive" />
+<br><center>
+										<h4>Our Warm Greetings !</h4>
+									<p>	We at QuanTech take extreme pleasure in providing our services at your distinguished Institute . It is our revered onus to evaluate and train every student to enhance their possibilities at their placements. </p>
+<p>	Milton Berle once said :<br>
+										<q>If Opportunity doesn’t knock , build a door! </q><br>
+										And thus, we help your students build a door to enhance their job opportunity, through our intensive training sessions on different modules by our enthusiastic team at QuanTech.</p>
+										
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+					<!-- //bootstrap-pop-up -->
+	<!-- js-scripts -->
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<!-- Necessary-JavaScript-File-For-Bootstrap -->
+	<!-- //js -->
+	<!--Start-slider-script-->
+	<script defer src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript">
+		
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			  $('body').removeClass('loading');
+			}
+		  });
+		});
+	  </script>
+<!--End-slider-script-->
+<script src="js/responsiveslides.min.js"></script>
+						
+			<script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+								  // Slideshow 4
+								  $("#slider3").responsiveSlides({
+									auto: true,
+									pager:false,
+									nav:true,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									  $('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+									  $('.events').append("<li>after event fired.</li>");
+									}
+								  });
+							
+								});
+							 </script>
+
+	<!-- smooth scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+<!-- //smooth scrolling -->
+<!-- scrolling script -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!-- //scrolling script -->
+
+	<!--search jQuery-->
+	<script src="js/main.js"></script>
+	<!--//search jQuery-->
+	<!-- stats -->
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/counterup.min.js"></script>
+	<script>
+		jQuery(document).ready(function ($) {
+			$('.counter').counterUp({
+				delay: 100,
+				time: 1000
+			});
+		});
+	</script>
+	<!-- stats -->
+	<!-- smooth scrolling -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- //smooth scrolling -->
+	<!-- js-scripts -->
+</body>
+
+</html>
